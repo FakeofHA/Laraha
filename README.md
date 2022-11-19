@@ -11,7 +11,12 @@ This is a laravel template built by engineer Nguyen Hoang Anh. Date 2022-11-10
 ### Environment
 
 1. git [git](https://git-scm.com/downloads)
-2. vscode [vscode](https://code.visualstudio.com/) - Extension: Laravel Extension Pack
+2. vscode [vscode](https://code.visualstudio.com/)
+    - Extension:
+        + vscode-icons
+        + Laravel Extension Pack
+        + PHP Extension Pack
+        + GitLens
 3. docker [docker](https://www.docker.com/)
 
 ### Core
