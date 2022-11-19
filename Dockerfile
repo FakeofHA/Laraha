@@ -20,5 +20,5 @@ CMD composer create-project laravel/laravel . && apt-get install -y nodejs && ap
 # RUN docker-php-ext-install pdo pdo_mysql
 
 # EXPOSE 8000
-# CMD apt-get install -y nodejs && apt-get install npm -y && npm install && cp .env.example .env && php artisan key:generate && php artisan config:cache && php artisan serve --host=0.0.0.0 --port=8000
+# CMD cp .env.example .env && composer install && composer update && php artisan key:generate && php artisan config:cache && apt-get install -y nodejs && apt-get install npm -y && composer require laravel/ui && php artisan ui bootstrap && npm install && php artisan serve --host=0.0.0.0 --port=8000
 # ----------------------------------------------------------------------------------------------------------
