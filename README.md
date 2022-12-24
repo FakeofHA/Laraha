@@ -16,7 +16,9 @@ This is a laravel template built by engineer Nguyen Hoang Anh. Date 2022-11-10
     - Extension:
         + Laravel Extension Pack
         + Docker Extension Pack
+        + jQuery Code Snippets
         + PHP Extension Pack
+        + PHP Intelephense
         + vscode-icons
         + GitLens
         + Docker
@@ -63,17 +65,21 @@ This is a laravel template built by engineer Nguyen Hoang Anh. Date 2022-11-10
 2. vscode [vscode](https://code.visualstudio.com/)
         - Extension:
                 + Laravel Extension Pack
+                + Docker Extension Pack
+                + jQuery Code Snippets
+                + PHP Extension Pack
+                + PHP Intelephense
                 + vscode-icons
-                + GitLens — Git supercharged
+                + GitLens
+                + Docker
 3. docker [docker](https://www.docker.com/)
 4. postman [postman](https://www.postman.com)
 
 ### Core
 
-1. Laravel 9.36.4
-2. Bootstrap 5
-3. Jquery 3.6.1
-4. Composer 2.4.3
+1. Laravel latest
+2. Bootstrap latest
+3. Composer latest
 
 ### Build Project
 
