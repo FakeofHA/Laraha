@@ -17,11 +17,11 @@ This is a laravel template built by engineer Nguyen Hoang Anh. Date 2022-11-10
         + Laravel Extension Pack
         + Docker Extension Pack
         + jQuery Code Snippets
-        + PHP Extension Pack
+        + Remote Development
         + PHP Intelephense
         + vscode-icons
+        + PHP Debug
         + GitLens
-        + Docker
 3. docker [docker](https://www.docker.com/)
 
 ### Core
@@ -67,11 +67,11 @@ This is a laravel template built by engineer Nguyen Hoang Anh. Date 2022-11-10
                 + Laravel Extension Pack
                 + Docker Extension Pack
                 + jQuery Code Snippets
-                + PHP Extension Pack
+                + Remote Development
                 + PHP Intelephense
                 + vscode-icons
+                + PHP Debug
                 + GitLens
-                + Docker
 3. docker [docker](https://www.docker.com/)
 4. postman [postman](https://www.postman.com)
 
@@ -90,7 +90,7 @@ This is a laravel template built by engineer Nguyen Hoang Anh. Date 2022-11-10
 ### Git Flow
 
 1. git checkout master
-2. git pull
+2. git pull origin master
 3. delete [ all container ], image [ ...-..._app ] and [ all volume ]
 4. docker compose up -d --build
 5. git checkout -b ... branche_name ...
