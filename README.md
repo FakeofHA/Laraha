@@ -46,14 +46,14 @@
 ### Build Project
 
 1. docker compose up -d --build
-2. sudo chown 1000:1000 -R .
-3. sudo chmod 777 -R .
+2. sudo chown 1000:1000 -R .            (wsl only)
+3. sudo chmod 777 -R .                  (wsl only)
 
 ### Git Flow
 
 1. git checkout master
 2. git pull origin master
-3. delete [ all container ], image [ surface-surface_app ] and [ all volume ]
+3. delete [ all container ], image [ app_name-app_name_app ] and [ all volume ]
 4. docker compose up -d --build
 5. git checkout -b ...branche_name...
         ...
@@ -65,16 +65,16 @@
 
 ### Artisan's Services
 
-1. docker exec -it surface_app ...command...
-2. docker exec -it surface_app composer update        (vd)
-3. docker exec -it surface_app php artisan serve      (vd)
-4. docker exec -it surface_app php artisan migrate    (vd)
+1. docker exec -it app_name_app ...command...
+2. docker exec -it app_name_app composer update        (vd)
+3. docker exec -it app_name_app php artisan serve      (vd)
+4. docker exec -it app_name_app php artisan migrate    (vd)
 
 ## Tips
 
 - Read this [document](https://laravel.com/docs/10.x).
 
 ## Container structures
-├── surface_app
-├── surface_php_my_admin
-└── surface_mysql
+├── app_name_app
+├── app_name_php_my_admin
+└── app_name_mysql

@@ -13,4 +13,7 @@ RUN apt-get install nodejs -y
 RUN apt-get install npm -y
 
 # build applycation
-CMD ["/var/www/html/run.sh"]
+CMD ["/var/www/html/build.sh"]
+
+# run applycation
+# CMD ["/var/www/html/run.sh"]
