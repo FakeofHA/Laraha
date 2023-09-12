@@ -53,7 +53,7 @@
 
 1. git checkout master
 2. git pull origin master
-3. delete [ all container ], image [ app_name-app_name_app ] and [ all volume ]
+3. delete [ all container ], image [ example_app-example_app_app ] and [ all volume ]
 4. docker compose up -d --build
 5. git checkout -b ...branche_name...
         ...
@@ -65,16 +65,16 @@
 
 ### Artisan's Services
 
-1. docker exec -it app_name_app ...command...
-2. docker exec -it app_name_app composer update        (vd)
-3. docker exec -it app_name_app php artisan serve      (vd)
-4. docker exec -it app_name_app php artisan migrate    (vd)
+1. docker exec -it example_app_app ...command...
+2. docker exec -it example_app_app composer update        (vd)
+3. docker exec -it example_app_app php artisan serve      (vd)
+4. docker exec -it example_app_app php artisan migrate    (vd)
 
 ## Tips
 
 - Read this [document](https://laravel.com/docs/10.x).
 
 ## Container structures
-├── app_name_app
-├── app_name_php_my_admin
-└── app_name_mysql
+├── example_app_app
+├── example_app_php_my_admin
+└── example_app_mysql
