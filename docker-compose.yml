@@ -1,5 +1,5 @@
 networks:
-  surface_network:
+  example_name_network:
 
 services:
   database:
@@ -13,7 +13,7 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
     networks:
-      - surface_network
+      - example_name_network
 
   remote_database:
     image: phpmyadmin
@@ -27,7 +27,7 @@ services:
         PMA_PORT: 3306
         PMA_ARBITRARY: 1
     networks:
-      - surface_network
+      - example_name_network
     depends_on:
       - database
 
@@ -41,7 +41,7 @@ services:
     volumes:
       - ./src/:/var/www/html
     networks:
-      - surface_network
+      - example_name_network
     depends_on:
       - database
 
@@ -54,6 +54,6 @@ services:
       - ./src/:/var/www/html
       - ./nginx/conf.d:/etc/nginx/conf.d
     networks:
-      - surface_network
+      - example_name_network
     depends_on:
       - application
