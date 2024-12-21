@@ -46,8 +46,7 @@
 ### Build Project
 
 1. docker compose up -d --build
-2. sudo chown 1000:1000 -R src/storage | sudo chmod 777 -R src/storage
-3. sudo chown 1000:1000 -R src/bootstrap/cache | sudo chmod 777 -R src/bootstrap/cache
+2. sudo chown 1000:1000 -R . | sudo chmod 777 -R .
 
 ### Git Flow
 
